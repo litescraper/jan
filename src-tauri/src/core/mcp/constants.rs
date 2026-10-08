@@ -42,7 +42,10 @@ pub const DEFAULT_MCP_CONFIG: &str = r#"{
     "serper": {
       "command": "npx",
       "args": ["-y", "serper-search-scrape-mcp-server"],
-      "env": { "SERPER_API_KEY": "YOUR_SERPER_API_KEY_HERE" },
+      "env": {
+        "SERPER_API_KEY": "YOUR_SERPER_API_KEY_HERE",
+        "SERPER_BASE_URL": "https://google.serper.dev"
+      },
       "active": false
     },
     "filesystem": {

@@ -202,3 +202,9 @@ Built on the shoulders of giants:
 - [Llama.cpp](https://github.com/ggerganov/llama.cpp)
 - [Tauri](https://tauri.app/)
 - [Scalar](https://github.com/scalar/scalar)
+
+## Serper-compatible endpoints
+
+Support any Serper.dev-compatible endpoint (like litescrape.com, serpbase.dev, serpensapi.org, and others).
+
+The Serper MCP preset exposes `SERPER_BASE_URL` in its environment settings. Set it to the provider base URL alongside `SERPER_API_KEY`; the default is `https://google.serper.dev`. This requires a Serper MCP server version that supports `SERPER_BASE_URL`.
